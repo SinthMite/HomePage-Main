@@ -43,6 +43,11 @@ header a{
 #readME{
     padding: 1rem 1.5rem;
     border-radius: 0%;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+}
+#readME:hover{
+    background-color: hsl(240, 100%, 5%);
 }
 .underline{
     border-bottom: 1px solid;
