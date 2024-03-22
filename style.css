@@ -54,7 +54,16 @@ header a{
     margin-bottom: 1rem;
 }
 #side{
-    background-color: hsl(240, 100%, 5%);
+    background-color:hsl(240, 100%, 10%)
+    ;
+}
+#side h3:hover{
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);
+}
+#options a:hover{
+    color: hsl(35, 77%, 62%);
+
 }
 #sideSection{
     display: flex;
@@ -72,6 +81,12 @@ header a{
     font-weight: 100;
     color: hsla(36, 100%, 99%, 0.5);
 }
+
+.articleHead :hover{
+    color: hsl(35, 77%, 62%);
+
+}
+
 @media screen and (max-width: 768px) {
     #options ul{
         display: none;
@@ -80,12 +95,14 @@ header a{
         margin-bottom: 4rem;
     }
 }
+
+
 .spacing{
     margin-bottom: 2rem;
 }
 #Slidingoptions{
     display: none;
-    background-color: hsl(36, 100%, 90%);
+    background-color: hsl(36, 100%, 97%);
     position: fixed;
     width: 70%;
     height: 100vh;
@@ -115,8 +132,9 @@ header a{
     align-items: center;
     justify-content: center;
     padding: 1.5rem;
-    animation: boxBack 1s ease-in-out;
+    animation: boxBack 100ms ease;
 }
+
 
 @keyframes boxBack {
     from {
@@ -151,3 +169,4 @@ header a{
     }
     
 }
+
